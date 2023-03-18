@@ -1,0 +1,23 @@
+{
+    "name": "jcomte23/text",
+    "description": "un pequeño aporte para alumnos de Platzi con mucho amor <3",
+    "authors": [
+        {
+            "name": "Javier Cómbita Téllez",
+            "email": "jcomte23@outlook.com"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.5.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Text\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
