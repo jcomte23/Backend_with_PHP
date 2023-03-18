@@ -38,16 +38,35 @@ echo "<br>";
 echo "<br>";
 echo "<h2>OPERATORS</h2>";
 
+echo "<h3>Arithmetic operators</h3>";
+//Operadores aritmeticos
+echo "+"." <b>:</b> "."a + b <b>:</b> "."<b>is equivalent to:</b>"." a = a + b <br>";
+echo "-"." <b>:</b> "."a - b <b>:</b> "."<b>is equivalent to:</b>"." a = a - b <br>";
+echo "*"." <b>:</b> "."a * b <b>:</b> "."<b>is equivalent to:</b>"." a = a * b <br>";
+echo "/"." <b>:</b> "."a / b <b>:</b> "."<b>is equivalent to:</b>"." a = a / b <br>";
+echo "%"." <b>:</b> "."a % b <b>:</b> "."<b>is equivalent to:</b>"." a = a modulus of b <br>";
+echo "**"." <b>:</b> "."a ** b <b>:</b> "."<b>is equivalent to:</b>"." a = a raised to b <br>";
+echo "<br>";
+
 echo "<h3>Assignment operators</h3>";
 //Operadores de asignación
-echo "+="." : "."a += b: "."es equivalente:"." a = a + b <br>";
-echo "-="." : "."a -= b: "."es equivalente:"." a = a - b <br>";
-echo "*="." : "."a *= b: "."es equivalente:"." a = a * b <br>";
-echo "/="." : "."a /= b: "."es equivalente:"." a = a / b <br>";
-echo "%="." : "."a %= b: "."es equivalente:"." a = a % b <br>";
+echo "+="." <b>:</b> "."a += b <b>:</b> "."<b>is equivalent to:</b>"." a = a + b <br>";
+echo "-="." <b>:</b> "."a -= b <b>:</b> "."<b>is equivalent to:</b>"." a = a - b <br>";
+echo "*="." <b>:</b> "."a *= b <b>:</b> "."<b>is equivalent to:</b>"." a = a * b <br>";
+echo "/="." <b>:</b> "."a /= b <b>:</b> "."<b>is equivalent to:</b>"." a = a / b <br>";
+echo "%="." <b>:</b> "."a %= b <b>:</b> "."<b>is equivalent to:</b>"." a = a % b <br>";
 echo "<br>";
+
+echo "<h3>Comparison operators</h3>";
+//Operadores de comparacion
+
+echo "=="." <b>:</b> "."<b>Equals:</b> "."is equivalent to comparing if one data is equal to another in value<br>";
+echo "==="." <b>:</b> "."<b>Forced equals:</b> "."equivalent to comparing whether one data is equal to another in value and data type <br>";
+echo "!="." <b>:</b> "."<b>Difference:</b> "."is equivalent to comparing if one data is <b>NOT equal</b> to another in value <br>";
+echo "!=="." <b>:</b> "."<b>Forced difference:</b> "."is equivalent to comparing whether one data is <b>NOT equal</b> to another in value and data type  <br>";
+echo "<, >, <= >= "." : "."major and minor, major equal and minor equal<br>";
 
 echo "<h3>Increment operators</h3>";
 //Operadores de incremento
-echo "++"." : "."i++: "."es equivalente:"." i = i + 1 <br>";
-echo "--"." : "."i--: "."es equivalente:"." i = i - 1 <br>";
+echo "++"." <b>:</b> "."i++ <b>:</b> "."<b>is equivalent to:</b>"." i = i + 1 <br>";
+echo "--"." <b>:</b> "."i-- <b>:</b> "."<b>is equivalent to:</b>"." i = i - 1 <br>";
