@@ -1,0 +1,18 @@
+Composer has many tools so sometimes it is a bit overwhelming to configure and use them, let's create a php project through composer with the following steps:
+1. create a folder with the name of your project: projectx, to avoid problems make sure that the folder name has no blank spaces or special characters not allowed, you can validate the folder name with the regular expression: [a-z0-9__.-]+/[a-z0-9_.-]+
+2.	Inside the folder run the following command: composer init
+3. The composer configuration generator will be opened.
+4.	It will ask you for the provider name and the package name, if you have Git installed on your computer it will take by default all git user as provider and the package name will be the folder name so just hit enter.
+5.	Then it will ask you for a short description of the project, a few words will be enough or if you prefer it can be quite descriptive.
+6.	Next it will ask you for the author name as you already have git, composer will take this from your default settings but you can change it to a different one if you wish.
+7.	Then it will ask you the minimum stability of the project, you can put "dev", "alpha", "beta" etc...; Or just leave it empty.
+8.	Then it will ask you what type of project it is: library, laravel, not basic project:Project etc.; You can choose one of the options or just leave it empty.
+9. now it will ask you what license your project handles, that is a quite advanced topic but to solve it you simply put MIT, because it is the standard implemented when we talk about free software projects but you can also leave it empty if you think it is better.
+These configurations were the initial ones now comes another topic that is inside the composer configuration generator, when you have completed the previous steps composer will ask you if you need any package in production, if you need it it will ask you a name all you enter it and it will give you a list of options for you to choose the package, today after choosing the package it will ask you which version you want if you want the latest simply leave the field empty, if you want a previous version you must put the version number
+after that to move forward when it asks you if you want another package just hit enter and the system will ask you if you need any package in development.
+today the process itself is very intuitive
+1. it will ask you if you want to generate a mapping file, if you want to do that enter src/ otherwise just enter n
+2. today it will show you a preview of how the composer.json file looks like.
+3.	Then it will ask you if you want to install the packages right now, you can choose yes or you will have to install them manually later. 
+4. finally you must run the command composer install
+with that you will finish creating a basic php project with composer.

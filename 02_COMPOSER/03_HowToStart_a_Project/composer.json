@@ -1,0 +1,24 @@
+{
+    "name": "javie/03_how-to-start_a_project",
+    "description": "basic php project created from scratch with composer",
+    "type": "library",
+    "require": {
+        "nesbot/carbon": "3.x-dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "10.1.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Javie\\03HowToStartAProject\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Javier Combita Tellez",
+            "email": "javiercombita2014@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
