@@ -1,0 +1,22 @@
+{
+    "name": "javie/04_validation-project",
+    "description": "Project to perform data validations",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "10.1.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Javier Cómbita Téllez",
+            "email": "jcomte23@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
