@@ -3,11 +3,12 @@
 //abstraccion y polimorfismo
 
 //CREAMOS LA CLASE ABSTRACTA PRINCIPAL
-abstract class Base
+class Base
 {
     // definimos un parametro que solo puede ser absedido por esta clase o otras clases que hereden
     // de ella
     protected $name;
+    public $apellido="pepinillo";
 
     //creamos un metodo para usarlo desde otras clases
     public function login()
@@ -44,6 +45,17 @@ class Admin extends Base
     }
 }
 
+class Super{
+    public function __construct()
+    {
+        $base=new Base();
+        $base->apellido="Lopez";
+        echo $base->apellido;
+        echo "<br>";
+        echo "hola mundo";
+    }
+}
+
 //de esta manera sobrescribimos una clase
 $guest = new Guest();
 echo $guest->login();
@@ -53,3 +65,6 @@ echo $user->login();
 
 $admin = new Admin('Helena');
 echo $admin->login();
+
+$super=new Super();
+
