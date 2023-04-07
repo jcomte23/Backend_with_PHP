@@ -1,0 +1,20 @@
+{
+  "name": "javie/testeounit",
+  "description": "Proyecto de testeo",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Javier Cómbita Téllez",
+      "email": "jcomte23@outlook.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  }
+}
